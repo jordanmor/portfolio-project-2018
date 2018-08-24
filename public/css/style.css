@@ -148,3 +148,16 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/* ----- Error Page ----- */
+
+.error {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.error p {
+  width: 65%;
+  margin-top: 1.4rem;
+}
