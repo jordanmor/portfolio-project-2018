@@ -1,7 +1,12 @@
 const express = require('express');
+const path = require('path');
+
 const app = express();
 
-app.use('/static', express.static('public'));
+/* The path provided to the express.static function is relative to the directory 
+from where the node process is loaded. If the express app is run from another directory, 
+it’s safer to use the absolute path of the directory that you want to serve */
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'pug');
 
