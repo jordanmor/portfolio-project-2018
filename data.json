@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "A simple random quote generator that displays inspirational quotes from popular children's books",
+      "description": "A simple random quote generator that displays inspirational quotes from popular children's books.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://jordanmor.github.io/random-quote-generator",
       "github_link": "https://github.com/jordanmor/random-quote-generator",
@@ -12,7 +12,7 @@
     {
       "id": 1,
       "project_name": "Pagination & Content Filter",
-      "description": "Use progressive enhancement and unobtrusive JavaScript to enhance the usability of a web page that has too much information",
+      "description": "JavaScript and jQuery are used to create a web page, to paginate an overly long listing of students and to add a search function to list only the students that match that search.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/pagination-content-filter",
       "github_link": "https://github.com/jordanmor/pagination-content-filter",
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "project_name": "Build an Interactive Form",
-      "description": "Use JavaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf'",
+      "description": "An interactive registration form using customized and conditional behavior and interactivity.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/interactive-form",
       "github_link": "https://github.com/jordanmor/interactive-form",
@@ -30,7 +30,7 @@
     {
       "id": 3,
       "project_name": "Tic-Tac-Toe",
-      "description": "Build a functional, two-person Tic Tac Toe game using JavaScript, jQuery and object-oriented programming",
+      "description": "A functional, one and two-person Tic Tac Toe game built using JavaScript, jQuery and object-oriented programming. When playing against the computer, the minimax function is used to enhance the computer's playing capabilities.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/tic-tac-toe",
       "github_link": "https://github.com/jordanmor/tic-tac-toe",
@@ -39,7 +39,7 @@
     {
       "id": 4,
       "project_name": "Employee Directory App",
-      "description": "Use a Public API to create an employee directory app",
+      "description": "An employee directory app built using data fetched from a public API.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/employee-directory-app",
       "github_link": "https://github.com/jordanmor/employee-directory-app",
@@ -48,7 +48,7 @@
     {
       "id": 5,
       "project_name": "Content Scraper",
-      "description": "A Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format)",
+      "description": "A Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format).",
       "technologies": ["Node.js", "HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "",
       "github_link": "https://github.com/jordanmor/content-scraper",
