@@ -23,4 +23,4 @@ Customized style of project in the following manner:
   - Added a transition and transform to project thumbnails
   - Added box-shadow to portfolio thumbnails 
   - Changed box-shadow of project images
-  - Chnaged background color of project buttons
+  - Changed background color of project buttons
