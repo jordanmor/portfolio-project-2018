@@ -113,7 +113,7 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
+    margin-bottom: 12px;
   }
 
   .portfolio-index a{
@@ -143,6 +143,10 @@ a:hover{
 .portfolio-project li{
   font-size: 13px;
   color: #444;
+}
+
+.portfolio-project .grid-x {
+  margin-bottom: 1.5rem;
 }
 
 .portfolio-bio{
