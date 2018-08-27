@@ -18,8 +18,8 @@ block content
         ul
           each technology in technologies
             li= technology
-
-        a.button.expanded(href=`${live_link}`) Live Demo
+        if live_link
+          a.button.expanded(href=`${live_link}`) Live Demo
         a.button.expanded(href=`${github_link}`) GitHub Repo
     
     //- Skip the first main image in each project's image_urls array 

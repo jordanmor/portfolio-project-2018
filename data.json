@@ -44,6 +44,15 @@
       "live_link": "https://jordanmor.github.io/employee-directory-app",
       "github_link": "https://github.com/jordanmor/employee-directory-app",
       "image_urls": ["/static/images/employee-directory-app/project-main.png", "/static/images/employee-directory-app/project-1.png", "/static/images/employee-directory-app/project-2.png", "/static/images/employee-directory-app/project-3.png"]
+    },
+    {
+      "id": 5,
+      "project_name": "Content Scraper",
+      "description": "A Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format)",
+      "technologies": ["Node.js", "HTML", "CSS", "JavaScript", "jQuery"],
+      "live_link": "",
+      "github_link": "https://github.com/jordanmor/content-scraper",
+      "image_urls": ["/static/images/content-scraper/project-main.png", "/static/images/content-scraper/project-1.png", "/static/images/content-scraper/project-2.png", "/static/images/content-scraper/project-3.png", "/static/images/content-scraper/project-4.png"]
     }
   ]
 }
