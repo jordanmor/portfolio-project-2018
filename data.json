@@ -7,43 +7,43 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://jordanmor.github.io/random-quote-generator",
       "github_link": "https://github.com/jordanmor/random-quote-generator",
-      "image_urls": ["static/images/random-quote-generator/project-main", "static/images/random-quote-generator/project-1", "static/images/random-quote-generator/project-2", "static/images/random-quote-generator/project-3"]
+      "image_urls": ["/static/images/random-quote-generator/project-main.png", "/static/images/random-quote-generator/project-1.png", "/static/images/random-quote-generator/project-2.png", "/static/images/random-quote-generator/project-3.png"]
     },
     {
       "id": 1,
       "project_name": "Pagination & Content Filter",
       "description": "Use progressive enhancement and unobtrusive JavaScript to enhance the usability of a web page that has too much information",
-      "technologies": ["HTML, CSS, JavaScript, jQuery"],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/pagination-content-filter",
       "github_link": "https://github.com/jordanmor/pagination-content-filter",
-      "image_urls": ["static/images/random-quote-generator/project-main", "static/images/random-quote-generator/project-1", "static/images/random-quote-generator/project-2", "static/images/random-quote-generator/project-3"]
+      "image_urls": ["/static/images/pagination-content-filter/project-main.png", "/static/images/pagination-content-filter/project-1.png", "/static/images/pagination-content-filter/project-2.png", "/static/images/pagination-content-filter/project-3.png"]
     },
     {
       "id": 2,
       "project_name": "Build an Interactive Form",
       "description": "Use JavaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf'",
-      "technologies": ["HTML, CSS, JavaScript, jQuery"],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/interactive-form",
       "github_link": "https://github.com/jordanmor/interactive-form",
-      "image_urls": ["static/images/random-quote-generator/project-main", "static/images/random-quote-generator/project-1", "static/images/random-quote-generator/project-2", "static/images/random-quote-generator/project-3"]      
+      "image_urls": ["/static/images/interactive-form/project-main.png", "/static/images/interactive-form/project-1.png", "/static/images/interactive-form/project-2.png", "/static/images/interactive-form/project-3.png", "/static/images/interactive-form/project-4.png"]      
     },
     {
       "id": 3,
       "project_name": "Tic-Tac-Toe",
       "description": "Build a functional, two-person Tic Tac Toe game using JavaScript, jQuery and object-oriented programming",
-      "technologies": ["HTML, CSS, JavaScript, jQuery"],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/tic-tac-toe",
       "github_link": "https://github.com/jordanmor/tic-tac-toe",
-      "image_urls": ["static/images/random-quote-generator/project-main", "static/images/random-quote-generator/project-1", "static/images/random-quote-generator/project-2", "static/images/random-quote-generator/project-3"]
+      "image_urls": ["/static/images/tic-tac-toe/project-main.png", "/static/images/tic-tac-toe/project-1.png", "/static/images/tic-tac-toe/project-2.png", "/static/images/tic-tac-toe/project-3.png", "/static/images/tic-tac-toe/project-4.png", "/static/images/tic-tac-toe/project-5.png"]
     },
     {
       "id": 4,
       "project_name": "Employee Directory App",
       "description": "Use a Public API to create an employee directory app",
-      "technologies": ["HTML, CSS, JavaScript, jQuery"],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
       "live_link": "https://jordanmor.github.io/employee-directory-app",
       "github_link": "https://github.com/jordanmor/employee-directory-app",
-      "image_urls": ["static/images/random-quote-generator/project-main", "static/images/random-quote-generator/project-1", "static/images/random-quote-generator/project-2", "static/images/random-quote-generator/project-3"]
+      "image_urls": ["/static/images/employee-directory-app/project-main.png", "/static/images/employee-directory-app/project-1.png", "/static/images/employee-directory-app/project-2.png", "/static/images/employee-directory-app/project-3.png"]
     }
   ]
 }
