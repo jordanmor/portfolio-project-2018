@@ -149,8 +149,12 @@ a:hover{
   margin-bottom: 1.5rem;
 }
 
-.portfolio-bio{
+.portfolio-bio {
     line-height: 25px;
+}
+
+.portfolio-bio p {
+  padding-bottom: 15px;
 }
 
 /* ----- Error Page ----- */

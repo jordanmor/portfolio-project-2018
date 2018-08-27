@@ -1,6 +1,6 @@
 /* Changed background-color to midnight-blue */
 .portfolio-me {
-  background: #2c3e50;
+  background-color: #2c3e50;
 }
 
 /* Changed text color */
@@ -30,4 +30,8 @@
  /* Changed box-shadow of portfolio images */
  .portfolio-project .image {
   box-shadow: 0 9px 20px 5px rgba(0,0,0,.4);
+}
+
+.button {
+  background-color: #2c3e50;
 }
