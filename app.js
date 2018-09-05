@@ -10,15 +10,20 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'pug');
 
+// Imports the main routes for the project from the index.js file in the routes dir
 const mainRoutes = require('./routes');
 
 app.use(mainRoutes);
 
+// Error handler for 404 errors
 app.use((req, res, next) => {
   const err = new Error('Page Not Found');
   err.status = 404;
   next(err);
 });
+
+/* Main error handler. Logs out a user friendly message 
+to the console and renders the error.pug template */
 
 app.use( (err, req, res, next) => {
   res.locals.error = err;
