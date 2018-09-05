@@ -14,7 +14,6 @@ block content
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
-
         ul
           each technology in technologies
             li= technology
@@ -22,6 +21,6 @@ block content
           a.button.expanded(href=`${live_link}`) Live Demo
         a.button.expanded(href=`${github_link}`) GitHub Repo
     
-    //- Skip the first main image in each project's image_urls array 
+    //- Project Images - skips the first main image in each project's image_urls array
     - for (let x = 1; x < image_urls.length; x++)
       img.image(src=`${image_urls[x]}`)
