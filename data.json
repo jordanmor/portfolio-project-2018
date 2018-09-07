@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 0,
+      "id": "random-quote-generator",
       "project_name": "Random Quote Generator",
       "description": "A simple random quote generator that displays inspirational quotes from popular children's books.",
       "technologies": ["HTML", "CSS", "JavaScript"],
@@ -10,7 +10,7 @@
       "image_urls": ["/static/images/random-quote-generator/project-main.png", "/static/images/random-quote-generator/project-1.png", "/static/images/random-quote-generator/project-2.png", "/static/images/random-quote-generator/project-3.png"]
     },
     {
-      "id": 1,
+      "id": "pagination-and-content-filter",
       "project_name": "Pagination & Content Filter",
       "description": "JavaScript and jQuery are used to create a web page, to paginate an overly long listing of students and to add a search function to list only the students that match that search.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
@@ -19,7 +19,7 @@
       "image_urls": ["/static/images/pagination-content-filter/project-main.png", "/static/images/pagination-content-filter/project-1.png", "/static/images/pagination-content-filter/project-2.png", "/static/images/pagination-content-filter/project-3.png"]
     },
     {
-      "id": 2,
+      "id": "build-an-interactive-form",
       "project_name": "Build an Interactive Form",
       "description": "An interactive registration form using customized and conditional behavior and interactivity.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
@@ -28,7 +28,7 @@
       "image_urls": ["/static/images/interactive-form/project-main.png", "/static/images/interactive-form/project-1.png", "/static/images/interactive-form/project-2.png", "/static/images/interactive-form/project-3.png", "/static/images/interactive-form/project-4.png"]      
     },
     {
-      "id": 3,
+      "id": "tic-tac-toe",
       "project_name": "Tic-Tac-Toe",
       "description": "A functional, one and two-person Tic Tac Toe game built using JavaScript, jQuery and object-oriented programming. When playing against the computer, the minimax function is used to enhance the computer's playing capabilities.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
@@ -37,7 +37,7 @@
       "image_urls": ["/static/images/tic-tac-toe/project-main.png", "/static/images/tic-tac-toe/project-1.png", "/static/images/tic-tac-toe/project-2.png", "/static/images/tic-tac-toe/project-3.png", "/static/images/tic-tac-toe/project-4.png", "/static/images/tic-tac-toe/project-5.png"]
     },
     {
-      "id": 4,
+      "id": "employee-directory-app",
       "project_name": "Employee Directory App",
       "description": "An employee directory app built using data fetched from a public API.",
       "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
@@ -46,7 +46,7 @@
       "image_urls": ["/static/images/employee-directory-app/project-main.png", "/static/images/employee-directory-app/project-1.png", "/static/images/employee-directory-app/project-2.png", "/static/images/employee-directory-app/project-3.png"]
     },
     {
-      "id": 5,
+      "id": "content-scraper",
       "project_name": "Content Scraper",
       "description": "A Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format).",
       "technologies": ["Node.js", "JavaScript", "jQuery"],

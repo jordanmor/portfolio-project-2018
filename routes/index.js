@@ -15,7 +15,7 @@ router.get('/about', (req, res) => {
 
 // GET individual project page according to project id
 router.get('/projects/:id', (req, res) => {
-  res.locals.project = projects[req.params.id];
+  res.locals.project = projects.find(project => project.id === req.params.id);
   res.render('project');
 });
 

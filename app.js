@@ -10,25 +10,29 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'pug');
 
-// Imports the main routes for the project from the index.js file in the routes dir
 const mainRoutes = require('./routes');
 
 app.use(mainRoutes);
 
-// Error handler for 404 errors
+// app.all('*', (req, res) => {
+//   res.redirect('/');
+// })
+
+// 404 errors
 app.use((req, res, next) => {
   const err = new Error('Page Not Found');
   err.status = 404;
   next(err);
 });
 
-/* Main error handler. Logs out a user friendly message 
-to the console and renders the error.pug template */
-
+// Main error handler
 app.use( (err, req, res, next) => {
-  res.locals.error = err;
-  console.log(`The following error has occurred: ${err.message} ${err.status}`);
-  res.status(err.status).render('error');
+  if (err.status === 404) {
+    res.locals.error = err;
+    res.status(err.status).render('error');
+  } else {
+    console.log(`The following error has occurred: ${err.message} ${err.status}`);
+  }
 });
 
 app.listen(3000, () => console.log('The application is running on localhost:3000!'));

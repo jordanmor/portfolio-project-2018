@@ -4,9 +4,7 @@ block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   .error
-    h1= error.message
-    h2= error.status
-    p= error.stack
+    h1 #{error.status} #{error.message}
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
 
