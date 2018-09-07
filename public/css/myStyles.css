@@ -1,14 +1,12 @@
-/* Changed background-color to midnight-blue */
-.portfolio-me {
-  background-color: #2c3e50;
+.portfolio-me,
+.title-bar {
+  background-color: #2c3e50; /* Midnight blue */
 }
 
-/* Changed text color */
 .portfolio-me p {
   color: #dadada;
 }
 
-/* Changed text color */
 .portfolio-me a {
   color: #777;
 }
@@ -17,7 +15,6 @@
   color: #aaa;
 }
 
-/* Added box-shadow and transition transform to portfolio thumbnails */
 .portfolio-index .thumbnail {
   box-shadow: 0 9px 20px 5px rgba(0,0,0,.4);
   transition: transform .3s ease;
@@ -27,8 +24,7 @@
   transform: scale(1.03);
 }
 
- /* Changed box-shadow of portfolio images */
- .portfolio-project .image {
+.portfolio-project .image {
   box-shadow: 0 9px 20px 5px rgba(0,0,0,.4);
 }
 
