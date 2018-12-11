@@ -4,24 +4,24 @@ html(class="no-js" lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Jordan Mor's Portfolio
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
-    link(rel='stylesheet', href='/static/css/myStyles.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/static/images/jordan-profile-pic.jpg')
+            img.thumbnail.sidebar-img(src='/static/images/jordan-profile-pic.jpg')
           .cell.auto
             h5 Jordan Mor
             p.text-light
-              | Hi! I'm a Web Developer pursuing a Full Stack Javascript Techdegree at Treehouse. 
-              | I'm currently working on multiple portfolio projects showing proficiency in JavaScript, 
-              | React, Node.js, Express, Git, CSS Grid & Flexbox, MongoDB, HTML5, jQuery, Gulp, Bootstrap, SQL and other web technologies.
+              | Hello! I am a web developer currently living in Southington, CT. I love JavaScript, React and working with REST APIs!<br><br>
+              | Please check out some of my projects which show my proficiency in JavaScript, 
+              | React, Node.js, Express, Git, CSS Grid & Flexbox, MongoDB, HTML5, jQuery, Gulp, Bootstrap, 
+              | SQL and other web technologies.
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')

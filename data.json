@@ -4,7 +4,7 @@
       "id": "twitter-gifs",
       "project_name": "Twitter Gifs",
       "description": "The latest Twitter trends matched with gifs",
-      "technologies": ["Node.js", "Express", "MongoDB","JavaScript", "Mongoose"],
+      "technologies": ["React", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose"],
       "live_link": "https://twittergifs.herokuapp.com",
       "github_link": "https://github.com/jordanmor/twitter-gifs",
       "image_urls": ["/static/images/twitter-gifs/project-main.png", "/static/images/twitter-gifs/project-1.png", "/static/images/twitter-gifs/project-2.png", "/static/images/twitter-gifs/project-3.png", "/static/images/twitter-gifs/project-4.png", "/static/images/twitter-gifs/project-5.png"]
