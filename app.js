@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const port = process.env.PORT || 3000;
 const app = express();
 
 app.use('/static', express.static(path.join(__dirname, 'public')));
@@ -28,4 +28,6 @@ app.use( (err, req, res, next) => {
   }
 });
 
-app.listen(3000, () => console.log('The application is running on localhost:3000!'));
+app.listen(port, () => {
+  console.log(`Express server is listening on port ${port}`);
+});
