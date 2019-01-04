@@ -2,6 +2,9 @@
   "name": "portfolio-project-1",
   "version": "1.0.0",
   "description": "Create a static portfolio site using Node.js and Express",
+  "engines": {
+    "node": "11.3.0"
+  },
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
