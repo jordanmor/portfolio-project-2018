@@ -9,6 +9,15 @@
         "live_link": "https://twittergifs.herokuapp.com",
         "github_link": "https://github.com/jordanmor/twitter-gifs",
         "image_urls": ["/static/images/twitter-gifs/project-main.png", "/static/images/twitter-gifs/project-1.png", "/static/images/twitter-gifs/project-2.png", "/static/images/twitter-gifs/project-3.png", "/static/images/twitter-gifs/project-4.png", "/static/images/twitter-gifs/project-5.png"]
+      },
+      {
+        "id": "interactive-gallery",
+        "project_name": "Interactive Image Gallery",
+        "description": "An interactive image gallery built with a responsive design approach, using React, CSS Grid & Flexbox, and utilizing Flickr's and Wordnik's APIs.",
+        "technologies": ["React", "JavaScript", "CSS Grid & Flexbox"],
+        "live_link": "https://jordanmor.github.io/interactive-gallery",
+        "github_link": "https://github.com/jordanmor/interactive-gallery",
+        "image_urls": ["/static/images/interactive-gallery/project-main.png", "/static/images/interactive-gallery/project-1.png", "/static/images/interactive-gallery/project-2.png", "/static/images/interactive-gallery/project-3.png", "/static/images/interactive-gallery/project-4.png"]
       }
     ],
     "treehouse": [
