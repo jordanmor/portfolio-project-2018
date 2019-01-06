@@ -14,8 +14,13 @@ router.get('/about', (req, res) => {
 });
 
 // GET individual project page according to project id
-router.get('/projects/:id', (req, res) => {
-  res.locals.project = projects.find(project => project.id === req.params.id);
+router.get('/projects/latest/:id', (req, res) => {
+  res.locals.project = projects.latest.find(project => project.id === req.params.id);
+  res.render('project');
+});
+
+router.get('/projects/treehouse-techdegree/:id', (req, res) => {
+  res.locals.project = projects.treehouse.find(project => project.id === req.params.id);
   res.render('project');
 });
 

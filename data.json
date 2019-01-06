@@ -1,94 +1,98 @@
 {
-  "projects": [
-    {
-      "id": "twitter-gifs",
-      "project_name": "Twitter Gifs",
-      "description": "The latest Twitter trends matched with gifs",
-      "technologies": ["React", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose"],
-      "live_link": "https://twittergifs.herokuapp.com",
-      "github_link": "https://github.com/jordanmor/twitter-gifs",
-      "image_urls": ["/static/images/twitter-gifs/project-main.png", "/static/images/twitter-gifs/project-1.png", "/static/images/twitter-gifs/project-2.png", "/static/images/twitter-gifs/project-3.png", "/static/images/twitter-gifs/project-4.png", "/static/images/twitter-gifs/project-5.png"]
-    },
-    {
-      "id": "react-gallery-app",
-      "project_name": "React Gallery App",
-      "description": "An image gallery built using React and the Flickr API",
-      "technologies": ["React", "JavaScript", "Node.js", "Express"],
-      "live_link": "https://react-gallery-app-1.herokuapp.com",
-      "github_link": "https://github.com/jordanmor/react-gallery-app",
-      "image_urls": ["/static/images/react-gallery-app/project-main.png", "/static/images/react-gallery-app/project-1.png", "/static/images/react-gallery-app/project-2.png", "/static/images/react-gallery-app/project-3.png", "/static/images/react-gallery-app/project-4.png"]
-    },
-    {
-      "id": "tic-tac-toe",
-      "project_name": "Tic-Tac-Toe",
-      "description": "A functional, one and two-person Tic Tac Toe game built using JavaScript, jQuery and object-oriented programming. When playing against the computer, the minimax function is used to enhance the computer's playing capabilities.",
-      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-      "live_link": "https://jordanmor.github.io/tic-tac-toe",
-      "github_link": "https://github.com/jordanmor/tic-tac-toe",
-      "image_urls": ["/static/images/tic-tac-toe/project-main.png", "/static/images/tic-tac-toe/project-1.png", "/static/images/tic-tac-toe/project-2.png", "/static/images/tic-tac-toe/project-3.png", "/static/images/tic-tac-toe/project-4.png", "/static/images/tic-tac-toe/project-5.png"]
-    },
-    {
-      "id": "library-manager",
-      "project_name": "Library Manager",
-      "description": "A web application built for searching, adding and updating items in a lending library, using JavaScript, Node.js, Express, and an Sqlite Database",
-      "technologies": ["Node.js", "Express", "Sqlite ","JavaScript", "Pug Templating"],
-      "live_link": "https://library-manager-2018.herokuapp.com",
-      "github_link": "https://github.com/jordanmor/library-manager",
-      "image_urls": ["/static/images/library-manager/project-main.png", "/static/images/library-manager/project-1.png", "/static/images/library-manager/project-2.png", "/static/images/library-manager/project-3.png", "/static/images/library-manager/project-4.png", "/static/images/library-manager/project-5.png"]
-    },
-    {
-      "id": "course-rating-api",
-      "project_name": "Course Rating API",
-      "description": "The back end for a \"Course Rating Application\" which lets users create, edit and rate courses. The API will provide a way for users to review educational courses: users can see a list of courses in a database; add courses to the database; and add reviews for a specific course. Built using Express and MongoDB.",
-      "technologies": ["Node.js", "Express", "MongoDB ", "Mongoose", "JavaScript"],
-      "live_link": "",
-      "github_link": "https://github.com/jordanmor/course-rating-api",
-      "image_urls": ["/static/images/course-rating-api/project-main.png", "/static/images/course-rating-api/project-1.png", "/static/images/course-rating-api/project-2.png", "/static/images/course-rating-api/project-3.png"]
-    },
-    {
-      "id": "employee-directory-app",
-      "project_name": "Employee Directory App",
-      "description": "An employee directory app built using data fetched from a public API.",
-      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-      "live_link": "https://jordanmor.github.io/employee-directory-app",
-      "github_link": "https://github.com/jordanmor/employee-directory-app",
-      "image_urls": ["/static/images/employee-directory-app/project-main.png", "/static/images/employee-directory-app/project-1.png", "/static/images/employee-directory-app/project-2.png", "/static/images/employee-directory-app/project-3.png"]
-    },
-    {
-      "id": "build-an-interactive-form",
-      "project_name": "Build an Interactive Form",
-      "description": "An interactive registration form using customized and conditional behavior and interactivity.",
-      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-      "live_link": "https://jordanmor.github.io/interactive-form",
-      "github_link": "https://github.com/jordanmor/interactive-form",
-      "image_urls": ["/static/images/interactive-form/project-main.png", "/static/images/interactive-form/project-1.png", "/static/images/interactive-form/project-2.png", "/static/images/interactive-form/project-3.png", "/static/images/interactive-form/project-4.png"]      
-    },
-    {
-      "id": "pagination-and-content-filter",
-      "project_name": "Pagination & Content Filter",
-      "description": "JavaScript and jQuery are used to create a web page, to paginate an overly long listing of students and to add a search function to list only the students that match that search.",
-      "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
-      "live_link": "https://jordanmor.github.io/pagination-content-filter",
-      "github_link": "https://github.com/jordanmor/pagination-content-filter",
-      "image_urls": ["/static/images/pagination-content-filter/project-main.png", "/static/images/pagination-content-filter/project-1.png", "/static/images/pagination-content-filter/project-2.png", "/static/images/pagination-content-filter/project-3.png"]
-    },
-    {
-      "id": "content-scraper",
-      "project_name": "Content Scraper",
-      "description": "A Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format).",
-      "technologies": ["Node.js", "JavaScript", "jQuery"],
-      "live_link": "",
-      "github_link": "https://github.com/jordanmor/content-scraper",
-      "image_urls": ["/static/images/content-scraper/project-main.png", "/static/images/content-scraper/project-1.png", "/static/images/content-scraper/project-2.png", "/static/images/content-scraper/project-3.png", "/static/images/content-scraper/project-4.png"]
-    },
-    {
-      "id": "random-quote-generator",
-      "project_name": "Random Quote Generator",
-      "description": "A simple random quote generator that displays inspirational quotes from popular children's books.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://jordanmor.github.io/random-quote-generator",
-      "github_link": "https://github.com/jordanmor/random-quote-generator",
-      "image_urls": ["/static/images/random-quote-generator/project-main.png", "/static/images/random-quote-generator/project-1.png", "/static/images/random-quote-generator/project-2.png", "/static/images/random-quote-generator/project-3.png"]
-    }
-  ]
+  "projects": {
+    "latest": [
+      {
+        "id": "twitter-gifs",
+        "project_name": "Twitter Gifs",
+        "description": "The latest Twitter trends matched with gifs",
+        "technologies": ["React", "JavaScript", "Node.js", "Express", "MongoDB", "Mongoose"],
+        "live_link": "https://twittergifs.herokuapp.com",
+        "github_link": "https://github.com/jordanmor/twitter-gifs",
+        "image_urls": ["/static/images/twitter-gifs/project-main.png", "/static/images/twitter-gifs/project-1.png", "/static/images/twitter-gifs/project-2.png", "/static/images/twitter-gifs/project-3.png", "/static/images/twitter-gifs/project-4.png", "/static/images/twitter-gifs/project-5.png"]
+      }
+    ],
+    "treehouse": [
+      {
+        "id": "library-manager",
+        "project_name": "Library Manager",
+        "description": "A web application built for searching, adding and updating items in a lending library, using JavaScript, Node.js, Express, and an Sqlite Database",
+        "technologies": ["Node.js", "Express", "Sqlite ","JavaScript", "Pug Templating"],
+        "live_link": "https://library-manager-2018.herokuapp.com",
+        "github_link": "https://github.com/jordanmor/library-manager",
+        "image_urls": ["/static/images/library-manager/project-main.png", "/static/images/library-manager/project-1.png", "/static/images/library-manager/project-2.png", "/static/images/library-manager/project-3.png", "/static/images/library-manager/project-4.png", "/static/images/library-manager/project-5.png"]
+      },
+      {
+        "id": "react-gallery-app",
+        "project_name": "React Gallery App",
+        "description": "An image gallery built using React and the Flickr API",
+        "technologies": ["React", "JavaScript", "Node.js", "Express"],
+        "live_link": "https://react-gallery-app-1.herokuapp.com",
+        "github_link": "https://github.com/jordanmor/react-gallery-app",
+        "image_urls": ["/static/images/react-gallery-app/project-main.png", "/static/images/react-gallery-app/project-1.png", "/static/images/react-gallery-app/project-2.png", "/static/images/react-gallery-app/project-3.png", "/static/images/react-gallery-app/project-4.png"]
+      },
+      {
+        "id": "tic-tac-toe",
+        "project_name": "Tic-Tac-Toe",
+        "description": "A functional, one and two-person Tic Tac Toe game built using JavaScript, jQuery and object-oriented programming. When playing against the computer, the minimax function is used to enhance the computer's playing capabilities.",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": "https://jordanmor.github.io/tic-tac-toe",
+        "github_link": "https://github.com/jordanmor/tic-tac-toe",
+        "image_urls": ["/static/images/tic-tac-toe/project-main.png", "/static/images/tic-tac-toe/project-1.png", "/static/images/tic-tac-toe/project-2.png", "/static/images/tic-tac-toe/project-3.png", "/static/images/tic-tac-toe/project-4.png", "/static/images/tic-tac-toe/project-5.png"]
+      },
+      {
+        "id": "course-rating-api",
+        "project_name": "Course Rating API",
+        "description": "The back end for a \"Course Rating Application\" which lets users create, edit and rate courses. The API will provide a way for users to review educational courses: users can see a list of courses in a database; add courses to the database; and add reviews for a specific course. Built using Express and MongoDB.",
+        "technologies": ["Node.js", "Express", "MongoDB ", "Mongoose", "JavaScript"],
+        "live_link": "",
+        "github_link": "https://github.com/jordanmor/course-rating-api",
+        "image_urls": ["/static/images/course-rating-api/project-main.png", "/static/images/course-rating-api/project-1.png", "/static/images/course-rating-api/project-2.png", "/static/images/course-rating-api/project-3.png"]
+      },
+      {
+        "id": "employee-directory-app",
+        "project_name": "Employee Directory App",
+        "description": "An employee directory app built using data fetched from a public API.",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": "https://jordanmor.github.io/employee-directory-app",
+        "github_link": "https://github.com/jordanmor/employee-directory-app",
+        "image_urls": ["/static/images/employee-directory-app/project-main.png", "/static/images/employee-directory-app/project-1.png", "/static/images/employee-directory-app/project-2.png", "/static/images/employee-directory-app/project-3.png"]
+      },
+      {
+        "id": "build-an-interactive-form",
+        "project_name": "Build an Interactive Form",
+        "description": "An interactive registration form using customized and conditional behavior and interactivity.",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": "https://jordanmor.github.io/interactive-form",
+        "github_link": "https://github.com/jordanmor/interactive-form",
+        "image_urls": ["/static/images/interactive-form/project-main.png", "/static/images/interactive-form/project-1.png", "/static/images/interactive-form/project-2.png", "/static/images/interactive-form/project-3.png", "/static/images/interactive-form/project-4.png"]      
+      },
+      {
+        "id": "pagination-and-content-filter",
+        "project_name": "Pagination & Content Filter",
+        "description": "JavaScript and jQuery are used to create a web page, to paginate an overly long listing of students and to add a search function to list only the students that match that search.",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_link": "https://jordanmor.github.io/pagination-content-filter",
+        "github_link": "https://github.com/jordanmor/pagination-content-filter",
+        "image_urls": ["/static/images/pagination-content-filter/project-main.png", "/static/images/pagination-content-filter/project-1.png", "/static/images/pagination-content-filter/project-2.png", "/static/images/pagination-content-filter/project-3.png"]
+      },
+      {
+        "id": "content-scraper",
+        "project_name": "Content Scraper",
+        "description": "A Node.js command line application that goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format).",
+        "technologies": ["Node.js", "JavaScript", "jQuery"],
+        "live_link": "",
+        "github_link": "https://github.com/jordanmor/content-scraper",
+        "image_urls": ["/static/images/content-scraper/project-main.png", "/static/images/content-scraper/project-1.png", "/static/images/content-scraper/project-2.png", "/static/images/content-scraper/project-3.png", "/static/images/content-scraper/project-4.png"]
+      },
+      {
+        "id": "random-quote-generator",
+        "project_name": "Random Quote Generator",
+        "description": "A simple random quote generator that displays inspirational quotes from popular children's books.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://jordanmor.github.io/random-quote-generator",
+        "github_link": "https://github.com/jordanmor/random-quote-generator",
+        "image_urls": ["/static/images/random-quote-generator/project-main.png", "/static/images/random-quote-generator/project-1.png", "/static/images/random-quote-generator/project-2.png", "/static/images/random-quote-generator/project-3.png"]
+      }
+    ]
+  }
 }

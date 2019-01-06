@@ -8,10 +8,24 @@ block content
   article.grid-container.portfolio-index
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-      each project in projects
+      each project in projects.latest
         - const { id, project_name, image_urls } = project; 
         .cell
-          a(href=`/projects/${id}`)
+          a(href=`/projects/latest/${id}`)
+            img.thumbnail(src=`${image_urls[0]}`)
+            h5= project_name
+
+  article.grid-container.portfolio-intro
+    div
+      h2.title Treehouse Full Stack JavaScript TechDegree Projects
+  
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each project in projects.treehouse
+        - const { id, project_name, image_urls } = project; 
+        .cell
+          a(href=`/projects/treehouse-techdegree/${id}`)
             img.thumbnail(src=`${image_urls[0]}`)
             h5= project_name
       
