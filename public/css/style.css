@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: .9rem;
   }
 
   p{
@@ -63,6 +64,10 @@ a:hover{
 
 .name {
   color: #2c3e50;
+}
+
+.lead {
+  font-size: 1.15rem;
 }
 
 .portfolio-me,
